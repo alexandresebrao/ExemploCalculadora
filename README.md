@@ -16,8 +16,11 @@ Ao baixar, executar, compilar ou outros você está de acordo com a Licença de 
 Ministrado por : Alexandre Krumenauer Sebrão
 
 Facebook: http://www.facebook.com/xandizitxu
+
 Instagram: http://www.instagram.com/xandizitxu
+
 Xbox Live : XandizitxU
+
 PSN: AlexandreSebrao (Até o dia que eu poder mudar)
 
 
