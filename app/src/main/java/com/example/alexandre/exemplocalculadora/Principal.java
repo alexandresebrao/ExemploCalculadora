@@ -44,13 +44,13 @@ public class Principal extends AppCompatActivity {
         atualizaVetor();
     }
 
-    public void limpaVetor(View v) {
+    public void limparVetor(View v) {
         calculadora.limparVetor();
         Toast mensagem = Toast.makeText(this, "Vetor limpo",Toast.LENGTH_SHORT);
         mensagem.show();
     }
 
-    public void Resultado(View v) {
+    public void resultado(View v) {
         if (calculadora.temNumeros()) {
             Intent intent = new Intent(this, Resultado.class);
             intent.putExtra("media", String.valueOf(calculadora.getMedia()));
