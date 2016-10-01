@@ -23,7 +23,7 @@ public class Principal extends AppCompatActivity {
         Integer numero = Integer.parseInt(txtNumero.getText().toString());
         calculadora.addNumero(numero);
         String resposta = "Numero " + numero.toString() + " adicionado com sucesso";
-        Toast mensagem = Toast.makeText(this,resposta, Toast.LENGTH_LONG);
+        Toast mensagem = Toast.makeText(this,resposta, Toast.LENGTH_SHORT);
         mensagem.show();
         atualizaVetor();
     }
@@ -45,9 +45,12 @@ public class Principal extends AppCompatActivity {
     }
 
     public void limparVetor(View v) {
+        TextView lblVetor = (TextView) findViewById(R.id.lblVetor);
         calculadora.limparVetor();
         Toast mensagem = Toast.makeText(this, "Vetor limpo",Toast.LENGTH_SHORT);
         mensagem.show();
+        lblVetor.setText("");
+
     }
 
     public void resultado(View v) {

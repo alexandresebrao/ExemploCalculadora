@@ -77,7 +77,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView2"
-        android:layout_alignParentStart="true"
         android:layout_marginTop="17dp"
         android:id="@+id/lblVetor"
         android:textSize="18sp" />
@@ -91,4 +90,5 @@
         android:layout_below="@+id/btnAdd"
         android:layout_alignParentStart="true"
         android:layout_marginTop="13dp" />
+
 </RelativeLayout>

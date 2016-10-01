@@ -72,11 +72,10 @@
         android:textAlignment="center" />
 
     <TextView
-        android:text="lblVetorResultado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView8"
         android:layout_marginTop="28dp"
-        android:id="@+id/textView9"
+        android:id="@+id/lblVetorResultado"
         android:layout_alignParentEnd="true" />
 </RelativeLayout>

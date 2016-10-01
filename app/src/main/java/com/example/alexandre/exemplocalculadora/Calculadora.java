@@ -54,6 +54,7 @@ public class Calculadora {
 
     public void limparVetor() {
         numeros = new ArrayList<Integer>();
+        tamanho = 0;
     }
 
 
